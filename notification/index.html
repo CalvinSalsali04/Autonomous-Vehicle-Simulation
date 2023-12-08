@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stylized Toast Messages</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body >
+    <nav class="navbar p-0 navbar-expand-lg bg-body-tertiary" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
+      <div class="container-fluid p-3">
+        <a class="navbar-brand" href="#">Autonomous Driving Sim</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="/">Car simulation</a>
+            <a class="nav-link" href="/power">Power System - Best path</a>
+             <a class="nav-link" href="/notification">Communication System</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex justify-content-center flex-column">
+    <h1>Stylized Toast Messages</h1>
+    <p>Communication messages for the car should appear in the bottom right corner after 10 seconds. </p>
+    </div>
+    <div class="toast-container" id="toastContainer"></div>
+    <div id="callContainer" class="call-container"></div>
+    <div id="toastContainer" class="toast-container"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./popup.js"></script>
+  </body>
+</html>
